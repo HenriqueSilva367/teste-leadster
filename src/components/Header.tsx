@@ -3,6 +3,7 @@ import Logo from "../../public/logo.png";
 import InconHeader from "../../public/asset-header.png"
 
 export default function Header() {
+  
     return (
       <div className='flex items-center justify-center p-10 flex-col'>
         <Image src={Logo} alt='Logo Leadster' />
